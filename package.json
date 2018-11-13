@@ -1,0 +1,36 @@
+{
+  "name": "emailappa6",
+  "version": "1.0.0",
+  "description": "A6 MEAN Stack Email App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrycebarker/emailAppA6.git"
+  },
+  "keywords": [
+    "A6",
+    "HTML5",
+    "email",
+    "css4",
+    "Angular6"
+  ],
+  "author": "Sergio Barker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbrycebarker/emailAppA6/issues"
+  },
+  "homepage": "https://github.com/sbrycebarker/emailAppA6#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.11",
+    "nodemailer": "^4.6.8"
+  }
+}
