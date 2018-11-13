@@ -2,3 +2,10 @@
 html {
   font-family: cursive;
 }
+
+body {
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
