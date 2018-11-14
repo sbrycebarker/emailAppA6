@@ -1,4 +1,16 @@
 # EmailAppA6
+This is a small Angular 6 app to show my HTML5 Email skills.
+
+## How to
+* Run npm start in top emailAppA6 folder
+* Fill out the form and the app will send you a styled email with the data from the form. 
+
+
+## Built with
+* Angular 6
+* NodeJs
+* HTML5
+* CSS3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
 
