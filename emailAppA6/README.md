@@ -2,7 +2,9 @@
 This is a small Angular 6 app to show my HTML5 Email skills.
 
 ## How to
-Fill out the form and the app will send you a styled email with the data from the form. 
+* rum npm start in top emailAppA6 folder
+* Fill out the form and the app will send you a styled email with the data from the form. 
+
 
 ## Built with
 * Angular 6
