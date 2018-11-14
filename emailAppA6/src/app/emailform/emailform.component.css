@@ -1,5 +1,49 @@
 form {
-  width: 500px;
+  height: 650px;
+  width: 400px;
   margin: auto;
-  background-color: #3285B1
+  background-color: #3285B1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+form ul {
+  margin: auto;
+  height: 70px;
+  width: 80%;
+  position: relative;
+  background-color: #363732;
+  color: white;
+  border-radius: 10px;
+  box-shadow: black 2px 2px 2px 2px;
+}
+
+#message {
+  height: 275px;
+}
+
+form ul h1 {
+  margin: auto;
+  font-size: 18px;
+}
+
+form input {
+  margin: 5px 0;
+  border-radius: 5px;
+  padding-left: 5px;
+  box-shadow: black 1px 1px 1px 1px;
+}
+
+textarea {
+  border-radius: 5px;
+}
+
+button {
+  margin: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #3285B1;
+  box-shadow: 1px 1px 1px 1px;
 }
