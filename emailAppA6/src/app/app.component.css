@@ -4,8 +4,42 @@ body {
   font-family: monospace;
 }
 
-#title-con {
-  margin: 0;
-  background-color: #E05B3A;
-  box-shadow: 5px 5px 5px
+@media screen and (min-width: 800px) {
+
+  #title-con {
+    margin: 0;
+    background-color: #E05B3A;
+    /* box-shadow: 5px 5px 5px */
+  }
+
+  #info-panel {
+    height: 400px;
+    width: 100%;
+    font-size: 1.2rem;
+    position: absolute;
+    background-color: #363732;
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    color: white;
+    bottom: 100px;
+    right: 0;
+    z-index: -1;
+  }
+
+  #info-panel div {
+    width: 200px;
+    margin: 100px 100px;
+  }
+
+}
+
+@media screen and  (max-width: 1000px) {
+  #info-panel div {
+    font-size: 1rem;
+    width: 200px;
+    margin: 100px 5%;
+  }
 }

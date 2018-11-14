@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "body {\r\n  font-family: cursive;\r\n}\r\n\r\n#title-con {\r\n  background-color: #E05B3A\r\n}\r\n"
+module.exports = "body {\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: monospace;\r\n}\r\n\r\n#title-con {\r\n  margin: 0;\r\n  background-color: #E05B3A;\r\n  box-shadow: 5px 5px 5px\r\n}\r\n\r\n#info-panel {\r\nheight: 400px;\r\nwidth: 800px;\r\n}\r\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "body {\r\n  font-family: cursive;\r\n}\r\n\r\n#title-con {\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div id=\"title-con\" style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <!-- <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\"> -->\n  <h1>The only toppings on pizza should be {{pizza}}</h1>\n</div>\n\n<app-emailform></app-emailform>\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div id=\"title-con\" style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <!-- <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\"> -->\n  <h1>NOTICE!</h1>\n  <h1>The best toppings on pizza are {{pizza}}</h1>\n</div>\n\n<div id=\"info-panel\">\n  <h1>Built with</h1>\n  <ul>Angular 6</ul>\n  <ul>HTML5</ul>\n  <ul>CSS3</ul>\n  <ul>NodeJs</ul>\n  <ul>Nodemailer</ul>\n</div>\n\n<app-emailform></app-emailform>\n"
 
 /***/ }),
 
@@ -139,7 +139,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "form {\r\n  width: 500px;\r\n  margin: auto;\r\n  background-color: #3285B1\r\n}\r\n"
+module.exports = "form {\r\n  height: 650px;\r\n  width: 400px;\r\n  margin: auto;\r\n  background-color: #3285B1;\r\n  display: flex;\r\n  flex-direction: column;\r\n  border-radius: 10px;\r\n  box-shadow: 5px 5px 5px 5px;\r\n}\r\n\r\nform ul {\r\n  margin: auto;\r\n  height: 70px;\r\n  width: 80%;\r\n  position: relative;\r\n  background-color: #363732;\r\n  color: white;\r\n  border-radius: 10px;\r\n  box-shadow: black 2px 2px 2px 2px;\r\n}\r\n\r\n#message {\r\n  height: 275px;\r\n}\r\n\r\nform ul h1 {\r\n  margin: auto;\r\n  font-size: 18px;\r\n}\r\n\r\nform input {\r\n  margin: 5px 0;\r\n  border-radius: 5px;\r\n  padding-left: 5px;\r\n  box-shadow: black 1px 1px 1px 1px;\r\n}\r\n\r\ntextarea {\r\n  border-radius: 5px;\r\n}\r\n\r\nbutton {\r\n  margin: 10px;\r\n  border: none;\r\n  border-radius: 2px;\r\n  background-color: #3285B1;\r\n  box-shadow: 1px 1px 1px 1px;\r\n}\r\n"
 
 /***/ }),
 
@@ -150,7 +150,7 @@ module.exports = "form {\r\n  width: 500px;\r\n  margin: auto;\r\n  background-c
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<form action=\"\">\n\n<ul>\n  <h1>First Name</h1>\n  <input type=\"text\">\n</ul>\n<ul>\n  <h1>Last Name</h1>\n  <input type=\"text\">\n</ul>\n<ul>\n  <h1>Email</h1>\n  <input type=\"text\">\n</ul>\n<ul>\n  <h1>Subject</h1>\n  <input type=\"text\">\n</ul>\n<ul>\n  <h1><textarea name=\"message\" id=\"\" cols=\"30\" rows=\"10\" style=\"resize: none\"></textarea></h1>\n</ul>\n\n</form>\n"
+module.exports = "<form action=\"\">\n\n<ul class=\"form-group\">\n  <h1>First Name</h1>\n  <input type=\"text\" placeholder=\"First Name\">\n</ul>\n<ul>\n  <h1>Last Name</h1>\n  <input type=\"text\" placeholder=\"Last Name\">\n</ul>\n<ul>\n  <h1>Email</h1>\n  <input type=\"text\" placeholder=\"Email\">\n</ul>\n<ul id=\"message\">\n  <h1>Subject</h1>\n  <input type=\"text\" placeholder=\"Subject\">\n  <h1><textarea name=\"message\" id=\"\" cols=\"30\" rows=\"10\" style=\"resize: none\" placeholder=\"...\"></textarea></h1>\n  <button>Submit</button>\n</ul>\n\n</form>\n"
 
 /***/ }),
 

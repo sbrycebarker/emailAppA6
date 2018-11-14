@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\nhtml {\n  font-family: cursive;\n}\nbody {\n  background-image: url(\"https://source.unsplash.com/random\");\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\n/* @import '' */\nhtml {\n  font-family: monospace;\n}\nbody {\n  margin: 0;\n  background-image: url(\"https://source.unsplash.com/daily\");\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat;\n}\n"
 
 /***/ }),
 
