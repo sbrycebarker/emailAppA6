@@ -2,12 +2,14 @@
 /* @import '' */
 
 html {
+  height: 100%;
+  width: 100%;
   font-family: monospace;
 }
 
 body {
   margin: 0;
-  background-image: url("https://source.unsplash.com/daily");
+  background-image: url("https://source.unsplash.com/1600x900/?nature,water");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

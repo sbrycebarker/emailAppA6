@@ -1,22 +1,27 @@
-<form action="">
-
+<form (submit)="onFormSubmit()" action="">
+  <!-- <h1><flash-messages></flash-messages></h1> -->
 <ul class="form-group">
   <h1>First Name</h1>
-  <input type="text" placeholder="First Name">
+  <input type="text" [(ngModel)]="first_name" name="first_name" placeholder="First Name">
 </ul>
 <ul>
   <h1>Last Name</h1>
-  <input type="text" placeholder="Last Name">
+  <input [(ngModel)]="last_name" type="text" name="last_name" placeholder="Last Name">
 </ul>
 <ul>
   <h1>Email</h1>
-  <input type="text" placeholder="Email">
+  <input [(ngModel)]="email" type="email" name="email" placeholder="Email">
 </ul>
 <ul id="message">
   <h1>Subject</h1>
-  <input type="text" placeholder="Subject">
-  <h1><textarea name="message" id="" cols="30" rows="10" style="resize: none" placeholder="..."></textarea></h1>
-  <button>Submit</button>
+  <input [(ngModel)]="subject" type="text" name="subject" placeholder="Subject">
+  <h1>
+    <textarea [(ngModel)]="message" name="message" id="" cols="30" rows="10" style="resize: none" placeholder="..."></textarea>
+  </h1>
+  <div>
+    <button>Submit</button>
+    <!-- <flash-messages></flash-messages> -->
+  </div>
 </ul>
 
 </form>

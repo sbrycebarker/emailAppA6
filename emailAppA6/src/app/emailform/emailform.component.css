@@ -27,7 +27,7 @@ form ul {
 }
 
 form ul h1 {
-  margin: auto;
+  margin: 5px auto;
   font-size: 18px;
 }
 
@@ -35,11 +35,12 @@ form input {
   margin: 5px 0;
   border-radius: 5px;
   padding-left: 5px;
-  box-shadow: black 1px 1px 1px 1px;
+  box-shadow: black 2px 2px 2px;
 }
 
 textarea {
   border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
 }
 
 button {
@@ -47,7 +48,7 @@ button {
   border: none;
   border-radius: 2px;
   background-color: #3285B1;
-  box-shadow: 1px 1px 1px 1px;
+  box-shadow: 2px 2px 2px;
 }
 
 }

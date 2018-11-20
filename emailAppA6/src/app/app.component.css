@@ -1,4 +1,6 @@
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: monospace;
@@ -7,9 +9,16 @@ body {
 @media screen and (min-width: 800px) {
 
   #title-con {
-    margin: 0;
+    height: 130px;
+    margin: 0 0 25px;
     background-color: #E05B3A;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
     /* box-shadow: 5px 5px 5px */
+  }
+
+  #title-con h1 {
+    margin: 0;
   }
 
   #info-panel {
@@ -27,6 +36,9 @@ body {
     bottom: 100px;
     right: 0;
     z-index: -1;
+    box-shadow: 5px 5px 5px white;
+    display: flex;
+    flex-direction: row;
   }
 
   #info-panel div {
