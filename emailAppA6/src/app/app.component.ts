@@ -7,5 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Sergios Angular6 Email App';
-  pizza = "Pepperoni & Jalepenos"
 }

@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\r\n/* @import '' */\r\nhtml {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-family: monospace;\r\n}\r\nbody {\r\n  margin: 0;\r\n  background-image: url(\"https://source.unsplash.com/1600x900/?nature,water\");\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n}\r\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\r\n/* @import '' */\r\nhtml {\r\n  height: 100%;\r\n  width: 100%;\r\n  font-family: monospace;\r\n}\r\nbody {\r\n  margin: 0;\r\n  background-image: url(\"https://source.unsplash.com/1600x900/?nature,water\");\r\n  background-size: cover;\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n}\r\n.alert-danger {\r\n  height: 35px;\r\n  width: 100%;\r\n  background-color: red;\r\n}\r\n.alert-success {\r\n  height: 35px;\r\n  width: 100%;\r\n  background-color: green;  \r\n}\r\n"
 
 /***/ }),
 

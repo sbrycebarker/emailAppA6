@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "body {\r\n  height: 100%;\r\n  width: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: monospace;\r\n}\r\n\r\n@media screen and (min-width: 800px) {\r\n\r\n  #title-con {\r\n    height: 130px;\r\n    margin: 0 0 25px;\r\n    background-color: #E05B3A;\r\n    box-sizing: border-box;\r\n    /* border: 2px solid black; */\r\n    /* box-shadow: 5px 5px 5px */\r\n  }\r\n\r\n  #title-con h1 {\r\n    margin: 0;\r\n  }\r\n\r\n  #info-panel {\r\n    height: 400px;\r\n    width: 100%;\r\n    font-size: 1.2rem;\r\n    position: absolute;\r\n    background-color: #363732;\r\n    -webkit-transform: skewY(-5deg);\r\n    transform: skewY(-5deg);\r\n    color: white;\r\n    bottom: 100px;\r\n    right: 0;\r\n    z-index: -1;\r\n    box-shadow: 5px 5px 5px white;\r\n    display: flex;\r\n    flex-direction: row;\r\n  }\r\n\r\n  #info-panel div {\r\n    width: 200px;\r\n    margin: 100px 100px;\r\n  }\r\n\r\n}\r\n\r\n@media screen and  (max-width: 1000px) {\r\n  #info-panel div {\r\n    font-size: 1rem;\r\n    width: 200px;\r\n    margin: 100px 5%;\r\n  }\r\n}\r\n"
+module.exports = "#title-con {\r\n  padding: 10px;\r\n}\r\n\r\n@media screen and  (max-width: 1000px) {\r\n  #info-panel div {\r\n    font-size: 1rem;\r\n    width: 200px;\r\n    margin: 100px 5%;\r\n  }\r\n}\r\n\r\nbody {\r\n  height: 100%;\r\n  width: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: monospace;\r\n}\r\n\r\n#title-con {\r\n  height: 100px;\r\n  margin: 0;\r\n  padding: 15px;\r\n  background-color: white;\r\n  box-sizing: border-box;\r\n}\r\n\r\n#title-con h1 {\r\n  margin: 0;\r\n  font-size: 18px;\r\n}\r\n\r\n#info-panel {\r\n  height: 350px;\r\n  width: 100%;\r\n  margin: auto;\r\n  font-size: 1.2rem;\r\n  position: relative;\r\n  background-color: #363732;\r\n  color: white;\r\n  display: flex;\r\n  flex-direction: row;\r\n}\r\n\r\n#info-panel div {\r\n  font-size: 1rem;\r\n  width: 200px;\r\n  margin: 50px 5%;\r\n}\r\n\r\n@media screen and (min-width: 800px) {\r\n\r\n  #title-con {\r\n    height: 130px;\r\n    margin: 0 0 25px;\r\n    background-color: white;\r\n    box-sizing: border-box;\r\n    /* border: 2px solid black; */\r\n    /* box-shadow: 5px 5px 5px */\r\n  }\r\n\r\n  #title-con h1 {\r\n    margin: 0;\r\n  }\r\n\r\n  #info-panel {\r\n    height: 400px;\r\n    width: 100%;\r\n    font-size: 1.2rem;\r\n    position: absolute;\r\n    background-color: #363732;\r\n    -webkit-transform: skewY(-5deg);\r\n    transform: skewY(-5deg);\r\n    color: white;\r\n    bottom: 100px;\r\n    right: 0;\r\n    z-index: -1;\r\n    box-shadow: 5px 5px 5px white;\r\n    display: flex;\r\n    flex-direction: row;\r\n  }\r\n\r\n  #info-panel div {\r\n    width: 200px;\r\n    margin: 100px 100px;\r\n  }\r\n\r\n}\r\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "body {\r\n  height: 100%;\r\n  width: 100%;\r\n  margin: 0;\r\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<!-- <flash-messages></flash-messages> -->\r\n<div id=\"title-con\" style=\"text-align:center\">\r\n  <h1>\r\n    Welcome to {{ title }}!\r\n    <flash-messages></flash-messages>\r\n  </h1>\r\n  <!-- <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\"> -->\r\n  <h1>NOTICE!</h1>\r\n  <h1>The best toppings on pizza are {{pizza}}</h1>\r\n</div>\r\n\r\n<div id=\"info-panel\">\r\n<div class=\"items\">\r\n  <h1>Built with</h1>\r\n  <ul>Angular 6</ul>\r\n  <ul>HTML5</ul>\r\n  <ul>CSS3</ul>\r\n  <ul>NodeJs</ul>\r\n  <ul>Nodemailer</ul>\r\n</div>\r\n<!-- <div class=\"items\">\r\n  <img src=\"./assets/nodemailer.png\" alt=\"\">\r\n</div> -->\r\n</div>\r\n\r\n<app-emailform></app-emailform>\r\n"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\r\n<!-- <flash-messages></flash-messages> -->\r\n<div id=\"title-con\" style=\"text-align:center\">\r\n  <h1>\r\n    Welcome to {{ title }}!\r\n    <flash-messages></flash-messages>\r\n  </h1>\r\n  <!-- <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\"> -->\r\n  <h1>\r\n    <flash-messages></flash-messages>\r\n  </h1>\r\n</div>\r\n\r\n<div id=\"info-panel\">\r\n<div class=\"items\">\r\n  <h1>Built with</h1>\r\n  <ul>Angular 6</ul>\r\n  <ul>HTML5</ul>\r\n  <ul>CSS3</ul>\r\n  <ul>NodeJs</ul>\r\n  <ul>Nodemailer</ul>\r\n</div>\r\n<!-- <div class=\"items\">\r\n  <img src=\"./assets/nodemailer.png\" alt=\"\">\r\n</div> -->\r\n</div>\r\n\r\n<app-emailform></app-emailform>\r\n"
 
 /***/ }),
 
@@ -66,7 +66,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
         this.title = 'Sergios Angular6 Email App';
-        this.pizza = "Pepperoni & Jalepenos";
     }
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -150,7 +149,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "@media screen and (min-width: 800px) {\r\n\r\nform {\r\n  height: 650px;\r\n  width: 400px;\r\n  margin: auto;\r\n  background-color: #3285B1;\r\n  display: flex;\r\n  flex-direction: column;\r\n  border-radius: 10px;\r\n  box-shadow: 5px 5px 5px 5px;\r\n}\r\n\r\nform ul {\r\n  margin: auto;\r\n  height: 70px;\r\n  width: 80%;\r\n  position: relative;\r\n  background-color: #363732;\r\n  color: white;\r\n  border-radius: 10px;\r\n  box-shadow: black 2px 2px 2px 2px;\r\n}\r\n\r\n#message {\r\n  height: 275px;\r\n}\r\n\r\nform ul h1 {\r\n  margin: 5px auto;\r\n  font-size: 18px;\r\n}\r\n\r\nform input {\r\n  margin: 5px 0;\r\n  border-radius: 5px;\r\n  padding-left: 5px;\r\n  box-shadow: black 2px 2px 2px;\r\n}\r\n\r\ntextarea {\r\n  border-radius: 5px;\r\n  box-shadow: 2px 2px 2px black;\r\n}\r\n\r\nbutton {\r\n  margin: 10px;\r\n  border: none;\r\n  border-radius: 2px;\r\n  background-color: #3285B1;\r\n  box-shadow: 2px 2px 2px;\r\n}\r\n\r\n}\r\n"
+module.exports = "form {\r\n  height: 650px;\r\n  width: 100%;\r\n  margin: auto;\r\n  background-color: #3285B1;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\nform ul {\r\n  margin: auto;\r\n  height: 70px;\r\n  width: 60%;\r\n  min-width: 275px;\r\n  position: relative;\r\n  background-color: #363732;\r\n  color: white;\r\n  border-radius: 10px;\r\n  box-shadow: black 2px 2px 2px 2px;\r\n}\r\n\r\n#message {\r\n  height: 275px;\r\n}\r\n\r\nform ul h1 {\r\n  margin: 5px auto;\r\n  font-size: 18px;\r\n}\r\n\r\nform input {\r\n  margin: 5px 0;\r\n  border-radius: 5px;\r\n  padding-left: 5px;\r\n  box-shadow: black 2px 2px 2px;\r\n}\r\n\r\ntextarea {\r\n  border-radius: 5px;\r\n  box-shadow: 2px 2px 2px black;\r\n}\r\n\r\nbutton {\r\n  margin: 10px;\r\n  border: none;\r\n  border-radius: 2px;\r\n  background-color: #3285B1;\r\n  box-shadow: 2px 2px 2px;\r\n}\r\n\r\n@media screen and (min-width: 800px) {\r\n\r\nform {\r\n  height: 650px;\r\n  width: 400px;\r\n  margin: auto;\r\n  background-color: #3285B1;\r\n  display: flex;\r\n  flex-direction: column;\r\n  border-radius: 10px;\r\n  box-shadow: 5px 5px 5px 5px;\r\n}\r\n\r\nform ul {\r\n  margin: auto;\r\n  height: 70px;\r\n  width: 80%;\r\n  position: relative;\r\n  background-color: #363732;\r\n  color: white;\r\n  border-radius: 10px;\r\n  box-shadow: black 2px 2px 2px 2px;\r\n}\r\n\r\n#message {\r\n  height: 275px;\r\n}\r\n\r\nform ul h1 {\r\n  margin: 5px auto;\r\n  font-size: 18px;\r\n}\r\n\r\nform input {\r\n  margin: 5px 0;\r\n  border-radius: 5px;\r\n  padding-left: 5px;\r\n  box-shadow: black 2px 2px 2px;\r\n}\r\n\r\ntextarea {\r\n  border-radius: 5px;\r\n  box-shadow: 2px 2px 2px black;\r\n}\r\n\r\nbutton {\r\n  margin: 10px;\r\n  border: none;\r\n  border-radius: 2px;\r\n  background-color: #3285B1;\r\n  box-shadow: 2px 2px 2px;\r\n}\r\n\r\n}\r\n"
 
 /***/ }),
 
@@ -221,10 +220,15 @@ var EmailformComponent = /** @class */ (function () {
         this.HttpreqService.sendEmail(form).subscribe(function (data) {
             console.log(data);
             if (data) {
-                _this.FlashMessagesService.show('EMAIL SENT!', { cssClass: 'alert-sucess', timeout: 3000 });
+                console.log("please wait");
             }
             else {
-                _this.FlashMessagesService.show('Try Again', { cssClass: 'alert-danger', timeout: 3000 });
+                if (data) {
+                    _this.FlashMessagesService.show('EMAIL SENT!', { cssClass: 'alert-success', timeout: 3000 });
+                }
+                else {
+                    _this.FlashMessagesService.show('Try Again', { cssClass: 'alert-danger', timeout: 3000 });
+                }
             }
         });
     };
@@ -257,6 +261,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HttpreqService", function() { return HttpreqService; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "../node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs/operators */ "../node_modules/rxjs/_esm5/operators/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -266,6 +271,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -281,7 +287,9 @@ var HttpreqService = /** @class */ (function () {
                 'Content-Type': 'application/json',
             })
         };
-        return this.http.post('http://localhost:8000/sendmail', message, httpOptions);
+        return this.http.post('http://localhost:8000/sendmail', message, httpOptions).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
+            return data;
+        }));
     };
     HttpreqService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
