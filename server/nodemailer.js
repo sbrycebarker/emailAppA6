@@ -32,7 +32,7 @@ module.exports = {
           <p> ${req.body.message}</p>
         `;
         let mailOptions = {
-          from: '"Barker Performance 👻" <sergiobarkerdev@gmail.com>',
+          from: '"Sergio Barker 👻" <sergiobarkerdev@gmail.com>',
           to: req.body.email,
           subject: req.body.subject,
           html: outPut
