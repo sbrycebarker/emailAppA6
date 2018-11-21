@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "emailAppA6": {
-      "root": "",
+      "root": "src",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",

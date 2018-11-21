@@ -44,6 +44,7 @@ export class EmailformComponent implements OnInit {
     }
 
     this.HttpreqService.sendEmail(form).subscribe(data => {
+      console.log(data)
       if (data) {
         this.FlashMessagesService.show('EMAIL SENT!', {cssClass: 'alert-sucess', timeout: 3000})
       } else {

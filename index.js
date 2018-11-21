@@ -26,7 +26,7 @@ const express = require('express'),
 // ================================================== ENDPOINTS =========================================
   let nodemail = require('./server/nodemailer.js');
 
-      // app.post('/request', nodemail.create);
+      app.post('/sendmail', nodemail.mail);
 
 
 // ================================================== ENDPOINTS =========================================

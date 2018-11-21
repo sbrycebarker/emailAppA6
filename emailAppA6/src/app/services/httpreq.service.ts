@@ -12,12 +12,17 @@ export class HttpreqService {
 
   constructor(private http: HttpClient) { }
   sendEmail(message) {
+
+    let send =
+
     console.log(message)
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type':  'application/json',
       })
     };
-    return this.http.post('http://locahost:3000/sendmail', message, httpOptions)
+    return this.http.post('http://localhost:8000/sendmail', message, httpOptions).pipe(map( data => {
+      return data
+    }))
   }
 }
